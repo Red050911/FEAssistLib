@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT License"
+#issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId = "rfea"
+version = "1.18.2-0.0.0.0"
+displayName = "FEAssistLib"
+updateJSONURL = "https://red050911.github.io/api/v1/mcmods/fetchUpdatesFor/mcForgeFormat/feassistlib.json"
+#displayURL=""
+#logoFile=""
+#credits=""
+authors = "Red050911"
+description = '''
+Adds some simple functionality for mod developers to implement to help with Forge Energy.
+'''
+
+[[dependencies.rfea]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.rfea]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "BOTH"
