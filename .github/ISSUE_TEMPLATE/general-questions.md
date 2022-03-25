@@ -2,7 +2,7 @@
 name: General Questions
 about: An issue asking a question about the mod
 title: ''
-labels: ''
+labels: 'Question'
 assignees: ''
 
 ---
